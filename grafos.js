@@ -5,7 +5,7 @@ class Queue {
         this.items = [];
     }
     
-    // adiciona o elemento na lista
+    // adiciona o elemento na lista.
     enqueue(elemento) {
         return this.items.push(elemento);
     }
@@ -161,3 +161,5 @@ g.addAresta('C', 'F');
 g.printGrafo();
 console.log("\n-- BFS --\n");
 g.bfs('A');
+
+console.log("teste");
